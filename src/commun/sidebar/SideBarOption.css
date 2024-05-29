@@ -1,0 +1,25 @@
+.side-bar-option{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    /* padding: 20px; */
+    color: rgb(36, 58, 90);
+}
+
+.side-bar-option:hover {
+    background-color: rgb(45, 248, 187);
+    border-radius: 0.75rem;
+    width: 20rem;
+    margin-left: 10px;
+}
+.side-bar-option > .MuiSvgIcon-root{
+    margin: 20px;
+}
+
+.sideBarOtion--active{
+    background-color: rgb(45, 248, 187);
+    border-radius: 0.75rem;
+    width: 20rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
