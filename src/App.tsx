@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import ProductList from './products/ProductList';
 import SideBar from './commun/sidebar/SideBar';
-import { DataGrid, useGridApiRef } from '@mui/x-data-grid';
 
 function App() {
 
